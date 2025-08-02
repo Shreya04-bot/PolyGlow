@@ -14,7 +14,6 @@ PolyGlow is a modern, responsive, and interactive multilingual translator web ap
 
 ---
 
-
 ## ✨ Features
 
 - 🔤 Translate text between 35+ global and regional languages
@@ -52,8 +51,8 @@ polyglow/
 ├── client/
 │   ├── public/
 │   ├── src/
-│   │   ├── App.tsx          # Main translator UI
-│   │   ├── languages.ts     # Language code list
+│   │   ├── App.jsx          # Main translator UI
+│   │   ├── languages.js     # Language code list
 │   │   ├── assets/
 │   └── vite.config.ts
 ├── server/
@@ -65,7 +64,7 @@ polyglow/
 1. Clone the repository
 bash
 Copy code
-git clone https://github.com/your-username/polyglow.git
+git clone https://github.com/Shreya04-bot/PolyGlow
 cd polyglow
 2. Setup Backend
 bash
@@ -113,7 +112,6 @@ Copy code
   "translatedText": "नमस्ते दुनिया"
 }
 
-
 ##🧠 Future Improvements
 🌍 Add LibreTranslate as fallback to avoid API limits
 📸 OCR-based image translation
@@ -127,4 +125,3 @@ Shreya
 
 ## 📝 License
 This project is open-source and available under the MIT License.
-
