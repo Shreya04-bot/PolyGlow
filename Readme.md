@@ -30,7 +30,7 @@ PolyGlow is a modern, responsive, and interactive multilingual translator web ap
 
 ## 🚀 Live Demo
 
-> Coming soon...
+-Live Demo :- https://polyglow.netlify.app/
 
 ---
 
