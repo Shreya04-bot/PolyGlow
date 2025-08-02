@@ -46,7 +46,7 @@ PolyGlow is a modern, responsive, and interactive multilingual translator web ap
 
 ## 🧩 Project Structure
 
-```bash
+```
 polyglow/
 ├── client/
 │   ├── public/
@@ -59,16 +59,16 @@ polyglow/
 │   ├── index.js             # Express server with /translate route
 │   └── .env                 # Contains RAPID_API_KEY
 └── README.md
+```
 
 ## 📦 Installation & Setup
-1. Clone the repository
-bash
-Copy code
+### 1. Clone the repository
+```bash
 git clone https://github.com/Shreya04-bot/PolyGlow
-cd polyglow
-2. Setup Backend
-bash
-Copy code
+cd PolyGlow
+```
+### 2. Setup Backend
+```bash
 cd server
 npm install
 Create a .env file:
@@ -76,29 +76,25 @@ Create a .env file:
 Copy code
 RAPID_API_KEY=your_rapidapi_key_here
 Start the server:
-
-bash
-Copy code
 node index.js
-3. Setup Frontend
-bash
+```
+
+### 3. Setup Frontend
+```bash
 Copy code
 cd ../client
 npm install
 npm run dev
 Frontend runs on: http://localhost:5173
 Backend runs on: http://localhost:5000
-
 Make sure your frontend calls /translate or set up a proxy in vite.config.js.
+```
 
 ## 📄 API Endpoint
 POST /translate
 Translates text using RapidAPI (Deep Translate)
 
 Body:
-
-json
-Copy code
 {
   "q": "Hello world",
   "source": "en",
@@ -106,21 +102,20 @@ Copy code
 }
 Response:
 
-json
-Copy code
 {
   "translatedText": "नमस्ते दुनिया"
 }
 
-##🧠 Future Improvements
+## 🧠 Future Improvements
 🌍 Add LibreTranslate as fallback to avoid API limits
 📸 OCR-based image translation
 🧠 Tone/context-aware translation options
 🕘 Translation history with backend storage
 🧪 Add tests with Vitest or Jest
 📱 PWA support for offline usage
-🙋‍♀️ Author
-Shreya
+
+## 🙋‍♀️ Author
+  Shreya
 👩‍💻 Made with 💜 for language learners and curious minds.
 
 ## 📝 License
