@@ -73,7 +73,6 @@ cd server
 npm install
 Create a .env file:
 🛡️ Copy `.env.example` to `.env` and replace the value with your own:
-Copy code
 RAPID_API_KEY=your_rapidapi_key_here
 Start the server:
 node index.js
