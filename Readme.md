@@ -54,7 +54,7 @@ polyglow/
 │   │   ├── App.jsx          # Main translator UI
 │   │   ├── languages.js     # Language code list
 │   │   ├── assets/
-│   └── vite.config.ts
+│   └── vite.config.js
 ├── server/
 │   ├── index.js             # Express server with /translate route
 │   └── .env                 # Contains RAPID_API_KEY
