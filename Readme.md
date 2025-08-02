@@ -94,25 +94,27 @@ Make sure your frontend calls /translate or set up a proxy in vite.config.js.
 POST /translate
 Translates text using RapidAPI (Deep Translate)
 
-### Body:
+#### Body:
 {
   "q": "Hello world",
   "source": "en",
   "target": "hi"
 }
-### Response:
+#### Response:
 {
   "translatedText": "नमस्ते दुनिया"
 }
 
 ## 🧠 Future Improvements
-  ### 🌍 Add LibreTranslate as fallback to avoid API limits
-  ### 📸 OCR-based image translation
-  ### 🧠 Tone/context-aware translation options
-  ### 🕘 Translation history with backend storage
-  ### 🧪 Add tests with Vitest or Jest
-  ### 📱 PWA support for offline usage
 
+- 🌍 Add LibreTranslate as fallback to avoid API limits
+- 📸 OCR-based image translation
+- 🧠 Tone/context-aware translation options
+- 🕘 Translation history with backend storage
+- 🧪 Add tests with Vitest or Jest
+- 📱 PWA support for offline usage
+- ♻️ Reset/Clear input instantly
+  
 ## 🙋‍♀️ Author
   Shreya
 👩‍💻 Made with 💜 for language learners and curious minds.
