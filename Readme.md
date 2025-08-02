@@ -89,7 +89,7 @@ npm run dev
 Frontend runs on: http://localhost:5173
 Backend runs on: http://localhost:5000
 
-Make sure your frontend calls /translate or set up a proxy in vite.config.ts.
+Make sure your frontend calls /translate or set up a proxy in vite.config.js.
 
 ## 📄 API Endpoint
 POST /translate
