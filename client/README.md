@@ -1,9 +1,6 @@
 # 🌐 PolyGlow - Multilingual Translator App
 
 PolyGlow is a modern, responsive, and interactive multilingual translator web app that supports text **translation**, **voice input**, and **speech synthesis**. Built with a beautiful UI, animated background particles, and theme toggling, it's designed for ease of use and accessibility.
-
-![PolyGlow Screenshot](./screenshot.png) <!-- Add screenshot in your repo -->
-
 ---
 
 ## ✨ Features
@@ -43,10 +40,10 @@ polyglow/
 ├── client/
 │   ├── public/
 │   ├── src/
-│   │   ├── App.tsx          # Main translator UI
-│   │   ├── languages.ts     # Language code list
+│   │   ├── App.jsx          # Main translator UI
+│   │   ├── languages.js     # Language code list
 │   │   ├── assets/
-│   └── vite.config.ts
+│   └── vite.config.js
 ├── server/
 │   ├── index.js             # Express server with /translate route
 │   └── .env                 # Contains RAPID_API_KEY
@@ -56,7 +53,7 @@ polyglow/
 1. Clone the repository
 bash
 Copy code
-git clone https://github.com/your-username/polyglow.git
+git clone https://github.com/Shreya04-bot/PolyGlow
 cd polyglow
 2. Setup Backend
 bash
